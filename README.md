@@ -1,3 +1,5 @@
+![hiring graphic designers](logo.png)
+
 # SmartProxy (WIP)
 
 (can someone help me come up with a name)
