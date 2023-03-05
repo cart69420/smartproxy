@@ -26,9 +26,7 @@ very smart proxy for minecraft
 
 # Usage
 
-1. Clone the repository 
-
-    `git clone https://github.com/cart69420/smartproxy.git`
+1. Clone the repository `git clone https://github.com/cart69420/smartproxy.git`
 2. Run `npm install`
 3. You can start right away by running `npm run start`. The proxy's port will be `25566` and `6969` for the socket.
 
