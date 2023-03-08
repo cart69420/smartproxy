@@ -8,7 +8,6 @@ export default class Client {
 
     constructor(options: ClientOptions, server: Server, middleware: MiddlewareOptions) {
         const pClient = createClient({
-            auth: options.auth || "offline",
             username: options.username,
             password: options.password || "",
             accessToken: options.accessToken,
@@ -51,7 +50,6 @@ export default class Client {
 }
 
 export interface ClientOptions {
-    auth?: "microsoft" | "mojang" | "offline",
     accessToken?: string,
     username: string,
     password?: string,

@@ -28,7 +28,6 @@ export default class Server {
             this.connected = client
             this.INSTANCE!!.motdMsg = `Occupied by ${client.username} going to ${connectOptions.host}:${connectOptions.port}`
             const pClient = new Client({
-                auth: this.accessToken ? "microsoft" : "offline",
                 accessToken: this.accessToken ?? "",
                 username: client.username,
                 host: connectOptions.host,
